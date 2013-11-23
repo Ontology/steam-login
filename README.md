@@ -1,3 +1,6 @@
+NOTE: This is a modified version of steam-login done by Ontology on Github.
+
+
 steam-login
 ===========
 
