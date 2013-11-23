@@ -37,16 +37,16 @@ Steam, sometimes, may "hide" itself, mostly when something went wrong with a gam
 
 INSTALL
 -------
-To install, just add the ppa so you can keep track of package updates:
+To install, just clone the project and build it:
 
 ```
-sudo add-apt-repository ppa:thor27-gmail/steam-desktop 
-sudo apt-get update 
-sudo apt-get install steam-login
+git clone https://github.com/Ontology/steam-login.git
+./build.sh
 ```
-
-If you don't (or can't) use PPA, you can directly donwload the latest version from here:
-<a href="https://launchpad.net/~thor27-gmail/+archive/steam-desktop/+files/steam-login_7_all.deb">steam-login_7_all.deb</a>
+Then just open the .deb file. On Ubuntu:
+```
+software-center steam-login_6_all.deb
+```
 
 HACKING ON IT
 -------------
