@@ -60,9 +60,6 @@ unset prefix
 unset parameters
 unset program
 
-#Open terminal in background
-gnome-terminal
-
 # -bigpicture does not work anymore
 #parameters='-bigpicture'
 parameters='-tenfoot'
@@ -87,6 +84,9 @@ do
         exit 1
     fi
 done
+
+#Execute xterm
+xterm
 
 while check_steam_window
 do
