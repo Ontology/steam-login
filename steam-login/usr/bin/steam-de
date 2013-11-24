@@ -60,6 +60,9 @@ unset prefix
 unset parameters
 unset program
 
+#Open terminal in background
+xterm
+
 # -bigpicture does not work anymore
 #parameters='-bigpicture'
 parameters='-tenfoot'
