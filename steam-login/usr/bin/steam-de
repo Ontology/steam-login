@@ -61,7 +61,7 @@ unset parameters
 unset program
 
 #Open terminal in background
-xterm
+gnome-terminal
 
 # -bigpicture does not work anymore
 #parameters='-bigpicture'
